@@ -1,0 +1,192 @@
+.input-label {
+    position: relative;
+    top: 10px;
+    left: 14px;
+    padding-right: 16px;
+    padding-left: 1px;
+    z-index: 1;
+    background-color: white;
+  }
+  .asterisk {
+    color: red;
+    font-size: 10px;
+  }
+  .form-control {
+    /* border-radius: 0px;
+      padding-left: 14px; */
+    background: transparent;
+    padding: 10px 10px;
+    font-size: 14px;
+  }
+  
+  .btn-save {
+    color: white;
+    padding: 8px 20px 8px 20px;
+    border: none;
+    background-color: #a5aaf3;
+    border-radius: 19px;
+    margin-right: 30px;
+  }
+  .btn-save.enabled {
+    background-color: #896be5;
+  }
+  .btn-clear {
+    color: white;
+    padding: 8px 20px 8px 20px;
+    border: none;
+    background-color: #896be5;
+    border-radius: 19px;
+  }
+  
+  .submit {
+    color: white;
+    padding: 8px 20px 8px 20px;
+    border: none;
+    background-color: #a5aaf3;
+    border-radius: 19px;
+    margin-right: 30px;
+  }
+  .error-msg {
+    color: red;
+    font-size: 13px;
+  }
+  .validity {
+    background-color: #dcdbdb;
+    padding: 4px 10px;
+    font-size: 13px;
+    border-radius: 25px;
+    margin-bottom: 12px;
+  }
+  .search {
+    border: 1px solid #bbb;
+    border-left: 0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 0px 5px;
+  }
+  .search:focus {
+    outline: none;
+  }
+  .tenantmgt .dropdown {
+    width: 67px;
+    border: 1px solid #bbb;
+    height: 32px;
+    border-radius: 0px;
+    padding: 0px 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-size: 14px;
+  }
+  .search-api {
+    display: flex;
+  }
+  .table-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ebedef;
+    padding-bottom: 16px;
+  }
+  .table_data {
+    text-align: center;
+  }
+  
+  .css-b62m3t-container {
+    padding: 0;
+    border: 0;
+    /* max-width: 50px; */
+  }
+  
+  .ts-time {
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    background: transparent;
+    padding: 0px 8px;
+    min-width: 80px;
+    line-height: 15px;
+    height: 38px;
+  }
+  
+  .addForm-container .cell {
+    padding: 0px 10x;
+  }
+  
+  .project-date-input.btn {
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding: 8px 15px;
+  }
+  
+  .react-datepicker__input-container {
+    display: block !important;
+  }
+  
+  .react-datepicker-wrapper {
+    width: 100% !important;
+  }
+  
+  .datePicker {
+    width: 100% !important;
+  }
+  
+  #timesheet-container .addForm-container .col-date {
+    width: 60%;
+  }
+  
+  #timesheet-container .addForm-container .col-stime {
+    width: 60%;
+  }
+  
+  #timesheet-container .addForm-container .col-etime {
+    width: 60%;
+  }
+  
+  #timesheet-container .addForm-container .col-project {
+    width: 60%;
+  }
+  
+  #timesheet-container .addForm-container .col-desc {
+    width: 100%;
+  }
+  
+  #timesheet-container .addForm-container .col-task {
+    width: 60%;
+  }
+  
+  #timesheet-container .addForm-container .col-status {
+    width: 25%;
+    text-align: center;
+  }
+  
+  .desc-block {
+    min-height: 205px !important;
+    height: 100%;
+  }
+  .desc-block-link {
+    height: 50%;
+  }
+  
+  .offcanvas-header {
+    background-color: #3f4d67;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .addform-btn {
+    margin: 0;
+    padding: 8px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(242 101 35);
+    font-weight: 600;
+    border-radius: 7px;
+    text-transform: uppercase;
+  }
+  
+  .addform-btn:disabled {
+    opacity: 0.1;
+  }
+  
+  .form-group .form-label {
+    font-weight: 600;
+  }
+  

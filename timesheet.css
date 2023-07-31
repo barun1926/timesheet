@@ -1,0 +1,253 @@
+#timesheet-container .approval-table td {
+  word-wrap: break-word;  
+  color: #888;
+  font-size: 14px;
+  font-weight: 500;
+
+  vertical-align: middle;
+  white-space: nowrap;
+  padding: 0.75rem 0.75rem;
+  border-top: 1px solid #eaeaea;
+}
+
+#timesheet-container .approval-table th {
+font-size: 14px;
+color: #888;
+font-weight: 600;
+background: #fff;
+padding: 0.75rem 0.75rem;
+  text-transform: uppercase;
+   
+}
+
+#timesheet-container .project-title {
+font-weight: 600;
+color: #000;
+}
+
+#timesheet-container table tfoot {
+  margin:15px 0;
+}
+
+#timesheet-container .item-header-block {
+ background-color: rgba(4, 169, 245, 0.05);
+ font-weight: 400;
+ padding: 10px;
+ font-size: 14px;
+}
+
+#timesheet-container .main-container-block div{
+ font-size: 14px;
+ font-weight: 600;
+ padding: 10px 5px;
+}
+
+
+#timesheet-container  .cell {
+ width: 100%;
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 10px 5px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#timesheet-container .col-sno{
+ max-width: 6%;
+ text-align: center;
+
+}
+#timesheet-container .col-action{
+ max-width: 6%;
+ text-align: center;
+}
+
+ /* react-loader css */
+
+
+#timesheet-container .col-date {
+
+}
+#timesheet-container .col-project {
+
+}
+#timesheet-container .col-stime{
+
+} 
+#timesheet-container .col-etime{
+
+}
+#timesheet-container .col-task{
+ 
+} 
+
+#timesheet-container .row-block {
+  margin: 2px 0px;
+}
+
+#timesheet-container .row-block .col-sno {
+
+  text-align: center;
+
+}
+/* 
+#timesheet-container .row-block .col-stime,
+#timesheet-container .row-block .col-etime
+{
+  text-align: center;
+} */
+
+#timesheet-container .task-break-block {
+  background-color:#fac5c57a;    
+}
+#timesheet-container .col-desc{
+
+} 
+#timesheet-container .col-status{
+  text-align: center;
+ max-width: 8%;
+} 
+
+#timesheet-container .dropdown-menu.show:before {
+  display: none;
+}
+
+#timesheet-container .dropdown-menu.show {
+  padding: 10px 0;
+  margin: 0;
+  box-shadow: 0 1px 10px 0 rgb(140 151 157 / 20%);
+  border: 1px solid rgb(140 151 157 / 20%);
+
+}
+
+
+#timesheet-container .row>* {
+padding-left: 0;
+padding-right: 0;
+}
+
+.group-date-title {
+font-weight: 600;
+}
+.email{
+  padding-left: 15px;
+}
+.badge-pending {
+color: #fff;
+background: linear-gradient(-135deg, #df6868 0%, #FF4747 100%);
+}
+
+.filter-icon{
+color: rgb(242 101 35)!important;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+
+.css-1dimb5e-singleValue {
+font-size: 14px;
+}
+
+.filter-calendar{
+font-size: 16px;
+color: #9496d4;
+}
+
+.sense-bottom {
+position: fixed;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 1030;
+background: #f4f7fa;
+z-index: 1028;
+color: #000;
+border-top: 1px solid #eeeff1;
+}
+.day{
+  padding-left: 40px;
+}
+.dropdown form-select, .dropdown .css-xgwaeg-control{
+background-color: #fff!important;
+border: none;
+}
+.date{
+  padding-left: 30px;
+}
+.calendar-link {
+font-weight: 600;
+  font-size: 14px;
+}
+
+.btn-addlink {
+border-radius: 15px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  padding: 7px;
+  word-spacing: 1px;
+}
+
+/* .status-block{
+text-align: center;
+} */
+
+#timesheet-container .react-datepicker__time-container,
+#timesheet-container .react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box {
+width: 150px!important;
+}
+
+
+.icon-wrapper {
+position: relative;
+}
+
+.comment {
+display: none;
+position: absolute;
+bottom: -32px;
+left: 50%;
+transform: translateX(-50%);
+background-color: #f7f8f9;
+padding: 5px;
+border-radius: 3px;
+color:#3f4d67;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon-wrapper:hover .comment {
+display: block;
+}
+
+.list-grid,button{
+font-size: x-large;
+background: none;
+}
+
+.groupbydate{
+display: flex;
+/* padding-right: 15px; */
+/* padding-left: 0px; */
+}
+.date-filter{
+display: flex;
+justify-content: center;
+}
+.addtimelog{
+display: flex;
+justify-content: end;
+/* padding-right: 0px; */
+}
+
+@media only screen and (max-width:768px) {
+.groupbydate{
+  display: none;
+}
+.date-filter{
+  /* display: block; */
+  justify-content: center;
+}
+.addtimelog{
+  /* display: flex; */
+  justify-content: center;
+  /* padding-right: 0px; */
+}
+}
